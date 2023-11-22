@@ -1,0 +1,32 @@
+{
+	"ProxyRotator": {
+		"Port": "3080"
+	},
+	"Inject": {
+		"Enable": true,
+		"Type": 2,
+		"Port": "8989",
+		"Rules": {
+			"*:*": [
+				"*:*"
+			]
+		},
+		"Payload": "",
+		"ServerNameIndication": "",
+		"MeekType": 0,
+		"Timeout": 5,
+		"ShowLog": false
+	},
+	"PsiphonCore": 25,
+	"Psiphon": {
+		"CoreName": "ps",
+		"Tunnel": 1,
+		"Region": "",
+		"Protocols": [
+			"UNFRONTED-MEEK-OSSH"
+		],
+		"TunnelWorkers": 6,
+		"KuotaDataLimit": 0,
+		"Authorizations": []
+	}
+}
