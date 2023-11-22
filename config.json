@@ -17,13 +17,14 @@
 		"Timeout": 5,
 		"ShowLog": false
 	},
-	"PsiphonCore": 25,
+	"PsiphonCore": 4,
 	"Psiphon": {
-		"CoreName": "ps",
+		"CoreName": "psiphon-tunnel-core",
 		"Tunnel": 1,
 		"Region": "",
 		"Protocols": [
-			"UNFRONTED-MEEK-OSSH"
+			"FRONTED-MEEK-HTTP-OSSH",
+			"FRONTED-MEEK-OSSH"
 		],
 		"TunnelWorkers": 6,
 		"KuotaDataLimit": 0,
